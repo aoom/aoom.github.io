@@ -5,8 +5,6 @@
     <title>LIVE NOW</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">		
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <script type="text/javascript" src="player.min.js"></script>
   </head>
   <body>
     <section class="page-header">
@@ -16,21 +14,9 @@
 
   
     
-
-<div id="player" style="width: 100%; height: ; ">
-		<script type="text/javascript">
-			SewisePlayer.setup({
-				server: "vod",
-				type: "m3u8",
-				autostart: "true",
-				poster: "",
-				videourl: "http://dlhls.cdn.zhanqi.tv/zqlive/42803_Drpky.m3u8",
-		        skin: "vodWhite",
-		        title: "Live M3U8",
-		        lang: "zh_CN"
-			}, "player");
-		</script>
-</div>
+<div style="width: 640px; height: 480px; ">
+		<script type="text/javascript" src="player.min.js?server=live&type=rtmp&streamurl=http://dlhls.cdn.zhanqi.tv/zqlive/42803_Drpky.m3u8&autostart=true&buffer=5&lang=zh_CN&logo=images/logo.png&poster=http://jackzhang1204.github.io/materials/poster.png&title=LiveVideo&skin=liveWhite"></script>
+		</div>
 
    <section class="end-content">
 
